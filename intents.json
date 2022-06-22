@@ -1,0 +1,1125 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello,I am ECA_Bot, How can I help you?", "I am ECA_Bot, Good to see you again, How can I help?", "Hi there, I am ECA_Bot, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through ECA College Website, Conatct Details of Teachers and Many more things.", "Offering support to know about Different Events and Other Information of College"],
+         "context": [""]
+        },
+        {"tag": "college_news",
+                "patterns": ["Tell me about college news","College news","I want to find about news"],
+                "responses": ["To watch Latest News, Go to HOME PAGE to QUICK LINKS then LATEST NEWS"],
+                "context": [""]
+        },
+        {"tag": "lectures",
+                "patterns": ["Tell me about e-lectures","E-lectures","how to see e-lectures"],
+                "responses": ["To see E-lectures,Go to HOME PAGE to QUICK LINKS then E-LECTURES"],
+                "context": [""]
+        },
+        {"tag": "syllabus",
+                "patterns": ["Tell me about syllabus","Syllabus","how to see syllabus"],
+                "responses": ["To see details about syllabus, Go to HOME PAGE to ACADEMICS then SYLLABUS"],
+                "context": [""]
+        },
+        {"tag": "workshops",
+                "patterns": ["Tell me about workshops","Workshops","how to see details about workshops"],       
+                "responses": ["To see details about workshops, Go to HOME PAGE to QUICK LINKS then WORKSHOP"],
+                "context": [""]
+        },
+        {"tag": "hackathon",
+                "patterns": ["Tell me about hackathon","Hackathon","how to see details about hackathon"],
+                "responses": ["To see details about hackathon, Go to HOME PAGE to QUICK LINKS then HACKATHON"],
+                "context": [""]
+        },
+
+        {"tag": "B.tech first year",
+                "patterns": ["Tell me about first year","B.tech first year","how to see details about B.tech first year"],
+                "responses": ["To see details about B.tech first year, Go to HOME PAGE to QUICK LINKS then B.TECH FIRST YEAR"],
+                "context": [""]
+        },
+
+        {"tag": "examination",
+                "patterns": ["Tell me about examination","Examination","how to see details about Examination"],
+                "responses": ["To see details about examination, Go to HOME PAGE to QUICK LINKS then EXAMINATION"],
+                "context": [""]
+        },
+
+        {"tag": "CAS",
+                "patterns": ["Tell me about CAS","Creative Art Society","how to see details about CAS"],
+                "responses": ["To see details about CAS, Go to HOME PAGE to QUICK LINKS to CIRCULARS then CAS"],
+                "context": [""]
+        },
+
+        {"tag": "proctor",
+                "patterns": ["Tell me about proctor","Proctor","how to see details about Proctor"],
+                "responses": ["To see details about proctor, Go to HOME PAGE to QUICK LINKS to CIRCULARS then PROCTOR"],
+                "context": [""]
+        },
+
+        {"tag": "transportation",
+                "patterns": ["Tell me about transportation","transportation","how to see details about transportation"],
+                "responses": ["To see details about transportation, Go to HOME PAGE to QUICK LINKS to CIRCULARS then TRANSPORTATION"],
+                "context": [""]
+        },
+
+        {"tag": "registrar",
+                "patterns": ["Tell me about registrar","Registrar","how to see details about resistrar"],
+                "responses": ["To see details about registrar, Go to HOME PAGE to QUICK LINKS to CIRCULARS then REGISTRAR"],
+                "context": [""]
+        },
+
+        {"tag": "accounts",
+                        "patterns": ["Tell me about accounts","Accounts","how to see details about accounts"],
+                        "responses": ["To see details about accounts, Go to HOME PAGE to QUICK LINKS to CIRCULARS then ACCOUNTS"],
+                        "context": [""]
+        },
+
+        {"tag": "library",
+                        "patterns": ["Tell me about library","Library","how to see details about library"],
+                        "responses": ["To see details about library, Go to HOME PAGE to QUICK LINKS to CIRCULARS then LIBRARY"],
+                        "context": [""]
+        },
+
+        {"tag": "ERP",
+                        "patterns": ["Tell me about ERP","ERP","how to see details about ERP"],
+                        "responses": ["To see details about ERP, Go to HOME PAGE to QUICK LINKS to CIRCULARS then ERP"],
+                        "context": [""]
+        },
+
+        {"tag": "TRP",
+                        "patterns": ["Tell me about TRP","TRP","how to see details about TRP"],
+                        "responses": ["To see details about TRP, Go to HOME PAGE to QUICK LINKS to CIRCULARS then TRP"],
+                        "context": [""]
+        },
+
+        {"tag": "SAE",
+                        "patterns": ["Tell me about SAE","SAE","how to see details about SAE"],
+                        "responses": ["To see details about SAE, Go to HOME PAGE to QUICK LINKS to CIRCULARS then SAE"],
+                        "context": [""]
+        },
+
+        {"tag": "AICTE",
+                        "patterns": ["Tell me about AICTE","AICTE","how to see details about AICTE"],
+                        "responses": ["To see details about AICTE, Go to HOME PAGE to QUICK LINKS to CIRCULARS then AICTE"],
+                        "context": [""]
+        },
+
+        {"tag": "TEQIP",
+                        "patterns": ["Tell me about TEQIP","TEQIP","how to see details about TEQIP"],
+                        "responses": ["To see details about TEQIP, Go to HOME PAGE to QUICK LINKS to CIRCULARS then TEQIP"],
+                        "context": [""]
+        },
+
+        {"tag": "NCC",
+                        "patterns": ["Tell me about NCC","NCC","how to see details about NCC"],
+                        "responses": ["To see details about NCC, Go to HOME PAGE to QUICK LINKS to CIRCULARS then NCC"],
+                        "context": [""]
+        },
+
+        {"tag": "NBA",
+                        "patterns": ["Tell me about NBA","NBA","how to see details about NBA"],
+                        "responses": ["To see details about NBA, Go to HOME PAGE to QUICK LINKS to CIRCULARS then NBA"],
+                        "context": [""]
+        },
+
+        {"tag": "store",
+                        "patterns": ["Tell me about store","Store","how to see details about store"],
+                        "responses": ["To see details about store, Go to HOME PAGE to QUICK LINKS to CIRCULARS then STORE"],
+                        "context": [""]
+        },
+
+        {"tag": "hostel",
+                        "patterns": ["Tell me about hostel","HOSTEL","how to see details about hostel"],
+                        "responses": ["To see details about hostel, Go to HOME PAGE to QUICK LINKS to CIRCULARS then HOSTEL"],
+                        "context": [""]
+        },
+
+        {"tag": "CS_IT",
+                        "patterns": ["Tell me about CS/IT","CS/IT","how to see details about CS/IT"],
+                        "responses": ["To see details about CS/IT, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then CS/IT"],
+                        "context": [""]
+        },
+
+        {"tag": "ECE",
+                        "patterns": ["Tell me about ECE","ECE","how to see details about ECE"],
+                        "responses": ["To see details about ECE, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then ECE"],
+                        "context": [""]
+        },
+
+        {"tag": "Mechanical",
+                        "patterns": ["Tell me about mechanical","Mechanical","how to see details about mechanical"],
+                        "responses": ["To see details about mechanical, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then MECHANICAL "],
+                        "context": [""]
+        },
+
+        {"tag": "civil",
+                        "patterns": ["Tell me about civil","Civil","how to see details about civil"],
+                        "responses": ["To see details about civil, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then CIVIL"],
+                        "context": [""]
+        },
+
+        {"tag": "EIC",
+                        "patterns": ["Tell me about EIC","EIC","how to see details about EIC"],
+                        "responses": ["To see details about EIC, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then EIC"],
+                        "context": [""]
+        },
+
+        {"tag": "EE",
+                        "patterns": ["Tell me about Electrical","Electrical","how to see details about Electrical"],
+                        "responses": ["To see details about Electrica;, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then ELECTRICAL"],
+                        "context": [""]
+        },
+
+        {"tag": "MCA",
+                        "patterns": ["Tell me about MCA","MCA","how to see details about MCA"],
+                        "responses": ["To see details about MCA, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then MCA"],
+                        "context": [""]
+        },
+
+        {"tag": "MBA",
+                        "patterns": ["Tell me about MBA","MBA","how to see details about MBA"],
+                        "responses": ["To see details about MBA, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then MBA"],
+                        "context": [""]
+        },
+
+        {"tag": "ASH",
+                        "patterns": ["Tell me about ASH","ASH","how to see details about ASH"],
+                        "responses": ["To see details about ASH, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then ASH"],
+                        "context": [""]
+        },
+
+        {"tag": "UG Section",
+                        "patterns": ["Tell me about UG Section","UG Section","how to see details about UG Section"],
+                        "responses": ["To see details about UG Section, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then UG Section"],
+                        "context": [""]
+        },
+
+        {"tag": "PG Section",
+                        "patterns": ["Tell me about PG Section","PG Section","how to see details about PG Section"],
+                        "responses": ["To see details about PG Section, Go to HOME PAGE to QUICK LINKS to CIRCULARS to DEPARTMENT then PG Section"],
+                        "context": [""]
+        },
+
+        {"tag": "RTI",
+                        "patterns": ["Tell me about RTI","RTI","how to see details about RTI"],
+                        "responses": ["To see details about RTI, Go to HOME PAGE to QUICK LINKS then RTI"],
+                        "context": [""]
+        },
+
+        {"tag": "fee submission",
+                        "patterns": ["Tell me about fee submission","Online Fee Submission","how to see details about fee submission"],
+                        "responses": ["To see details about online fee submission, Go to HOME PAGE to PORTAL then ONLINE FEE SUBMISSION"],
+                        "context": [""]
+        },
+
+        {"tag": "mooc courses",
+                        "patterns": ["Tell me about mooc courses","mooc courses","how to see details about mooc courses"],
+                        "responses": ["To see details about mooc courses, Go to HOME PAGE to PORTAL then MOOC COURSES"],
+                        "context": [""]
+        },
+
+        {"tag": "MoUs with companies",
+                        "patterns": ["Tell me about MoUs with companies","MoUs with Companies","how to see details about MoUs with companies"],
+                        "responses": ["To see details about MoUs with Companies, Go to HOME PAGE to PORTAL then MoUs WITH COMPANIES"],
+                        "context": [""]
+        },
+
+        {"tag": "rtu",
+                        "patterns": ["Tell me about rtu","RTU","how to see details about rtu"],
+                        "responses": ["To see details about rtu, Go to HOME PAGE to PORTAL then RTU"],
+                        "context": [""]
+        },
+
+        {"tag": "btu",
+                        "patterns": ["Tell me about btu","BTU","how to see details about BTU"],
+                        "responses": ["To see details about BTU, Go to HOME PAGE to PORTAL then BTU"],
+                        "context": [""]
+        },
+
+        {"tag": "vjti",
+                        "patterns": ["Tell me about VJTI","VJTI","how to see details about VJTI"],
+                        "responses": ["To see details about VJTI, Go to HOME PAGE to PORTAL then VJTI,Mumbai"],
+                        "context": [""]
+        },
+
+        {"tag": "officer",
+                        "patterns": ["Tell me about Nodal Officer","Nodal Officer","how to contact Nodal Officer"],
+                        "responses": ["To contact Nodal Officer, Go to HOME PAGE then Nodal Officer"],
+                        "context": [""]
+        },
+
+        {"tag": "project",
+                        "patterns": ["Tell me about project","Project Grants","how to see details about project"],
+                        "responses": ["To see details about Project Grants, Go to HOME PAGE then PROJECT GRANTS"],
+                        "context": [""]
+        },
+
+        {"tag": "feedback",
+                        "patterns": ["how to give feedback","feedback"],
+                        "responses": ["To give feedback , Go to HOME PAGE then FEEDBACK"],
+                        "context": [""]
+        },
+
+        {"tag": "college holidays",
+                        "patterns": ["Tell me about holiday details","Holiday Details","how to see holiday details"],
+                        "responses": ["To see Holiday details, Go to HOME PAGE then HOLIDAYS"],
+                        "context": [""]
+        },
+
+        {"tag": "press",
+                        "patterns": ["Tell me about press","press regarding college","how to see press regarding college"],
+                        "responses": ["To see press regarding college, Go to HOME PAGE then press regarding college"],
+                        "context": [""]
+        },
+
+        {"tag": "policy",
+                        "patterns": ["Tell me about policy's","policy's of website","how to see details policy's of website"],
+                        "responses": ["To see details policy's of website, Go to HOME PAGE then POLICY'S"],
+                        "context": [""]
+        },
+
+        {"tag": "web team",
+                        "patterns": ["Tell me about web team","Web Team","how to see details about web team"],
+                        "responses": ["To see details about web team, Go to HOME PAGE then WEB TEAM"],
+                        "context": [""]
+        },
+
+        {"tag": "jyoti_gajrani",
+                        "patterns": ["Tell me how to contact Jyoti Gajrani","conatct details of Jyoti Gajrani","I want to contact Jyoti Gajrani"],
+                        "responses": ["To contact Jyoti Gajrani, jyotigajrani@ecajmer.ac.in 9460031242 "],
+                        "context": [""]
+        },
+        {"tag": "Prakriti_Trivedi",
+                        "patterns": ["Tell me how to contact Prakriti Trivedi ","conatct details of Prakriti Trivedi ","I want to contact Prakriti Trivedi "],
+                        "responses": ["To contact Prakriti Trivedi, prakrititrivedi@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "S_N_TAZI",
+                        "patterns": ["Tell me how to contact SATYA NARAYAN TAZI ","Tell me how to contact S. N. TAZI ","conatct details of SATYA NARAYAN TAZI ","I want to contact SATYA NARAYAN TAZI"],
+                        "responses": [" To contact SATYA NARAYAN TAZI ,satya.tazi@ecajmer.ac.in 9460333407 "],
+                        "context": [""]
+        },
+        {"tag": "ANIL_KUMAR_TAILOR ",
+                        "patterns": ["Tell me how to contact ANIL KUMAR TAILOR ","conatct details of ANIL KUMAR TAILOR ","I want to contact ANIL KUMAR TAILOR"],
+                        "responses": ["To contact ANIL KUMAR TAILOR ,aktailor@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "PRAKASH MEENA ",
+                        "patterns": ["Tell me how to contact PRAKASH MEENA ","conatct details of PRAKASH MEENA ","I want to contact PRAKASH MEENA "],
+                        "responses": ["To contact PRAKASH MEENA,prakashmeena@ecajmer.ac.in  917300089526 "],
+                        "context": [""]
+        },
+        {"tag": "Vinesh Kumar Jain ",
+                        "patterns": ["Tell me how to contact Vinesh Kumar Jain ","conatct details of  Vinesh Kumar Jain","I want to contact Vinesh Kumar Jain"],
+                        "responses": ["To contact Vinesh Kumar Jain,vineshjain@ecajmer.ac.in  9462738575 "],
+                        "context": [""]
+        },
+        {"tag": "V. P. Sharma ",
+                        "patterns": ["Tell me how to contact Vishnu Prakash Sharma ","conatct details of  Vishnu Prakash Sharma ","I want to contact Vishnu Prakash Sharma "],
+                        "responses": ["To contact Vishnu Prakash Sharma,vps@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact DILIP SISODIA ",
+                        "patterns": ["Tell me how to contact DILIP SISODIA","conatct details of DILIP SISODIA ","I want to contact DILIP SISODIA"],
+                        "responses": ["To contact DILIP SISODIA,sisodia.dilip@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact Dinesh Kumar Khunteta ",
+                        "patterns": ["Tell me how to contact Dinesh Kumar Khunteta ","conatct details of Dinesh Kumar Khunteta ","I want to contact Dinesh Kumar Khunteta"],
+                        "responses": ["To contact Dinesh Kumar Khunteta ,dkkhunteta@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Deepak Gupta",
+                        "patterns": ["Tell me how to contact Deepak Gupta","conatct details of Deepak Gupta","I want to contact Deepak Gupta "],
+                        "responses": ["To contact Deepak Gupta ,deepakgupta@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Rakesh Rathi ",
+                        "patterns": ["Tell me how to contact Rakesh Rathi","conatct details of Rakesh Rathi","I want to contact Rakesh Rathi"],
+                        "responses": [" To contact Rakesh Rathi ,rakeshrathi@ecajmer.ac.in  941429515"],
+                        "context": [""]
+        },
+        {"tag": "contact_H R Choudhary",
+                        "patterns": ["Tell me how to contact H R Choudhary","conatct details of H R Choudhary","I want to contact H R Choudhary "],
+                        "responses": [" To contact H R Choudhary ,hrchoudhary@ecajmer.ac.in"],
+                        "context": [""]
+        },
+        {"tag": "contact_Shikha Gupta",
+                        "patterns": ["Tell me how to contact Shikha Gupta ","conatct details of Shikha Gupta","I want to contact Shikha Gupta"],
+                        "responses": ["To contact Shikha Gupta ,shikhagupta@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Ravinder Singh",
+                        "patterns": ["Tell me how to contact Ravinder Singh ","conatct details of Ravinder Singh ","I want to contact Ravinder Singh "],
+                        "responses": [" To contact Ravinder Singh ,ravinder_kaviya@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Neetu Sharma",
+                        "patterns": ["Tell me how to contact Neetu Sharma","conatct details of Neetu Sharma ","I want to contact Neetu Sharma"],
+                        "responses": [" To contact Neetu Sharma ,drneetu@ecajmer.ac.in"],
+                        "context": [""]
+        },
+        {"tag": "contact_Sunil Kumar Khinchi ",
+                        "patterns": ["Tell me how to contact Sunil Kumar Khinchi","conatct details of Sunil Kumar Khinchi","I want to contact Sunil Kumar Khinchi"],
+                        "responses": ["To contact Sunil Kumar Khinchi ,sunilkhinchi@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Atul Chaudhary",
+                        "patterns": ["Tell me how to contact Atul Chaudhary  ","conatct details of Atul Chaudhary ","I want to contact Atul Chaudhary  "],
+                        "responses": [" To contact Atul Chaudhary ,atul@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Shalini Yadav",
+                        "patterns": ["Tell me how to contact Shalini Yadav ","conatct details of Shalini Yadav","I want to contact Shalini Yadav "],
+                        "responses": [" To contact Shalini Yadav ,shalini.yadav@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Rakesh Verma",
+                        "patterns": ["Tell me how to contact  Rakesh Verma","conatct details of  Rakesh Verma","I want to contact  Rakesh Verma"],
+                        "responses": ["To contact Rakesh Verma ,rakesh.verma@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Pawan Kumar",
+                        "patterns": ["Tell me how to contact Pawan Kumar","conatct details of Pawan Kumar ","I want to contact Pawan Kumar "],
+                        "responses": ["To contact Pawan Kumar ,pawan.kumar@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Suman Chaudhary",
+                        "patterns": ["Tell me how to contact Suman Chaudhary ","conatct details of Suman Chaudhary ","I want to contact Suman Chaudhary"],
+                        "responses": ["To contact Suman Chaudhary ,suman@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_ANITA CHOUDHARY",
+                        "patterns": ["Tell me how to contact ANITA CHOUDHARY","conatct details of ANITA CHOUDHARY","I want to contact ANITA CHOUDHARY"],
+                        "responses": ["To contact ANITA CHOUDHARY, anita.choudhary@ecajmer.ac.in"],
+                        "context": [""]
+        },
+        {"tag": "contact_Satish Kumar Ray ",
+                        "patterns": ["Tell me how to contact Satish Kumar Ray ","conatct details of Satish Kumar Ray ","I want to contact Satish Kumar Ray "],
+                        "responses": ["To contact Satish Kumar Ray ,satish.ray@ecajmer.ac.in"],
+                        "context": [""]
+        },
+        {"tag": "contact_Anurag Jain",
+                        "patterns": ["Tell me how to contact Anurag Jain","conatct details of Anurag Jain","I want to contact Anurag Jain"],
+                        "responses": ["To contact Anurag Jain ,anurag.jain@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Ganpat Singh",
+                        "patterns": ["Tell me how to contact Ganpat Singh","conatct details of Ganpat Singh","I want to contact Ganpat Singh"],
+                        "responses": [" To contact Ganpat Singh ,ganpatsingh78@ecajmer.ac.in 7014404116 "],
+                        "context": [""]
+        },
+        {"tag": "contact_Mahesh Manwani",
+                        "patterns": ["Tell me how to contact Mahesh Manwani","conatct details of Mahesh Manwani","I want to contact Mahesh Manwani "],
+                        "responses": [" To contact Mahesh Manwani ,maheshmanwani@ecajmer.ac.in"],
+                        "context": [""]
+        },
+        {"tag": "contact_Vishal Srivastava",
+                        "patterns": ["Tell me how to contact Vishal Srivastava","conatct details of Vishal Srivastava","I want to contact Vishal Srivastava"],
+                        "responses": [" To contact Vishal Srivastava ,vishalsrivastava@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Dhruv Saxena",
+                        "patterns": ["Tell me how to contact Dhruv Saxena","conatct details of Dhruv Saxena ","I want to contact Dhruv Saxena"],
+                        "responses": [" To contact Dhruv Saxena ,dhruv.saxena@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Pravesh Saini",
+                        "patterns": ["Tell me how to contact Pravesh Saini","conatct details of Pravesh Saini","I want to contact Pravesh Saini"],
+                        "responses": ["To contact Pravesh Saini ,pravesh.saini@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_NISHANT SINGH KUSHWAHA",
+                        "patterns": ["Tell me how to contact NISHANT SINGH KUSHWAHA","conatct details of NISHANT SINGH KUSHWAHA","I want to contact NISHANT SINGH KUSHWAHA"],
+                        "responses": ["To contact NISHANT SINGH KUSHWAHA ,nishant.kushwah@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_DHARMENDRA S. DHAKA",
+                        "patterns": ["Tell me how to contact DHARMENDRA S. DHAKA","conatct details of DHARMENDRA S. DHAKA","I want to contact DHARMENDRA S. DHAKA"],
+                        "responses": ["To contact DHARMENDRA S. DHAKA ,dharmendra@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Sankalp",
+                        "patterns": ["Tell me how to contact Sankalp","conatct details of Sankalp","I want to contact Sankalp"],
+                        "responses": [" To contact Sankalp ,sankalp@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_SHIVAM CHAUHAN ",
+                        "patterns": ["Tell me how to contact SHIVAM CHAUHAN","conatct details of SHIVAM CHAUHAN","I want to contact SHIVAM CHAUHAN"],
+                        "responses": [" To contact SHIVAM CHAUHAN ,shivamchauhan@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Naveen Choudhary ",
+                        "patterns": ["Tell me how to contact Naveen Choudhary ","conatct details of Naveen Choudhary","I want to contact Naveen Choudhary"],
+                        "responses": ["To contact Naveen Choudhary ,naveencivil@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_ANURAG KUMAR SINGH",
+                        "patterns": ["Tell me how to contact ANURAG KUMAR SINGH","conatct details of ANURAG KUMAR SINGH","I want to contact ANURAG KUMAR SINGH"],
+                        "responses": ["To contact ANURAG KUMAR SINGH ,anuragcivil@ecajmer.ac.in"],
+                        "context": [""]
+        },
+        {"tag": "contact_Vishnu Priya Choudhary",
+                        "patterns": ["Tell me how to contact Vishnu Priya Choudhary","conatct details of Vishnu Priya Choudhary","I want to contact Vishnu Priya Choudhary"],
+                        "responses": ["To contact Vishnu Priya Choudhary ,vishnupriya.choudhary@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_K.G.Sharma",
+                        "patterns": ["Tell me how to contact K.G.Sharma","conatct details of K.G.Sharma","I want to contact K.G.Sharma"],
+                        "responses": ["To contact K.G.Sharma ,kgsharma@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Indira Rawat ",
+                        "patterns": ["Tell me how to contact Indira Rawat ","conatct details of Indira Rawat","I want to contact Indira Rawat"],
+                        "responses": [" To contact Indira Rawat ,rawatindira@ecajmer.ac.in"],
+                        "context": [""]
+        },
+        {"tag": "contact_KESAVARAPU ANIL KUMAR",
+                        "patterns": ["Tell me how to contact KESAVARAPU ANIL KUMAR","conatct details of KESAVARAPU ANIL KUMAR","I want to contact KESAVARAPU ANIL KUMAR"],
+                        "responses": ["To contact KESAVARAPU ANIL KUMAR ,anilkumar.kesavarapu@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Nandkishor Gupta",
+                        "patterns": ["Tell me how to contact Nandkishor Gupta","conatct details of Nandkishor Gupta","I want to contact Nandkishor Gupta"],
+                        "responses": ["To contact Nandkishor Gupta ,nandkishor.gupta@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_DEV PRATAP MAHTO",
+                        "patterns": ["Tell me how to contact DEV PRATAP MAHTO","conatct details of DEV PRATAP MAHTO","I want to contact DEV PRATAP MAHTO"],
+                        "responses": [" To contact DEV PRATAP MAHTO ,dev.pratap@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Amit kumar taneja",
+                        "patterns": ["Tell me how to contact Amit kumar taneja ","conatct details of Amit kumar taneja","I want to contact Amit kumar taneja"],
+                        "responses": ["To contact Amit kumar taneja ,amit.taneja@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Arjun pareek  ",
+                        "patterns": ["Tell me how to contact Arjun pareek  ","conatct details of Arjun pareek ","I want to contact Arjun pareek "],
+                        "responses": ["To contact Arjun pareek ,arjun.pareek@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Arun Dev Pandey",
+                        "patterns": ["Tell me how to contact Arun Dev Pandey","conatct details of Arun Dev Pandey","I want to contact Arun Dev Pandey"],
+                        "responses": ["To contact Arun Dev Pandey ,arundev@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_GYANENDRA PRAKASH",
+                        "patterns": ["Tell me how to contact GYANENDRA PRAKASH","conatct details of GYANENDRA PRAKASH ","I want to contact GYANENDRA PRAKASH"],
+                        "responses": ["To contact GYANENDRA PRAKASH ,gyanendra.prakash@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_shivani dwivedi ",
+                        "patterns": ["Tell me how to contact shivani dwivedi ","conatct details of shivani dwivedi","I want to contact shivani dwivedi"],
+                        "responses": ["To contact shivani dwivedi ,shivani@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Hari Shankar Mewara ",
+                        "patterns": ["Tell me how to contact Hari Shankar Mewara","conatct details of Hari Shankar Mewara","I want to contact Hari Shankar Mewara"],
+                        "responses": ["To contact Hari Shankar Mewara ,hsmewara@ecajmer.ac.in  9414340074 "],
+                        "context": [""]
+        },
+        {"tag": "contact_Jitendra Kumar Deegwal ",
+                        "patterns": ["Tell me how to contact Jitendra Kumar Deegwal","conatct details of Jitendra Kumar Deegwal","I want to contact Jitendra Kumar Deegwal"],
+                        "responses": ["To contact Jitendra Kumar Deegwal ,jitendradeegwal@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_C. P. Jain ",
+                        "patterns": ["Tell me how to contact C. P. Jain ","conatct details of C. P. Jain","I want to contact C. P. Jain"],
+                        "responses": ["To contact C. P. Jain ,cpjain@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_AJAY DADHICH ",
+                        "patterns": ["Tell me how to contact AJAY DADHICH ","conatct details of AJAY DADHICH ","I want to contact AJAY DADHICH "],
+                        "responses": ["To contact AJAY DADHICH ,ajaydadhich13@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_DIVAKAR KUMAR",
+                        "patterns": ["Tell me how to contact DIVAKAR KUMAR","conatct details of DIVAKAR KUMAR","I want to contact DIVAKAR KUMAR"],
+                        "responses": ["To contact DIVAKAR KUMAR ,divakar.kumar@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_ANUP KUMAR SHARMA",
+                        "patterns": ["Tell me how to contact ANUP KUMAR SHARMA","conatct details of ANUP KUMAR SHARMA","I want to contact ANUP KUMAR SHARMA"],
+                        "responses": [" To contact ANUP KUMAR SHARMA ,anup.sharma@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_RAJ KUMAR YADAV",
+                        "patterns": ["Tell me how to contact RAJ KUMAR YADAV ","conatct details of RAJ KUMAR YADAV ","I want to contact RAJ KUMAR YADAV "],
+                        "responses": ["To contact RAJ KUMAR YADAV ,rajkumar.yadav@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Ramesh Kumar ",
+                        "patterns": ["Tell me how to contact Ramesh Kumar ","conatct details of Ramesh Kumar","I want to contact Ramesh Kumar"],
+                        "responses": ["To contact Ramesh Kumar ,ramesh.meena@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Nivedita",
+                        "patterns": ["Tell me how to contact Nivedita ","conatct details of Nivedita","I want to contact Nivedita "],
+                        "responses": [" To contact Nivedita ,nivedita.sethy@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Dipak Kumar Mishra ",
+                        "patterns": ["Tell me how to contact  Dipak Kumar Mishra ","conatct details of  Dipak Kumar Mishra","I want to contact Dipak Kumar Mishra "],
+                        "responses": [" To contact Dipak Kumar Mishra ,dipak.mishra@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_ATUL KUMAR SHARMA ",
+                        "patterns": ["Tell me how to contact ATUL KUMAR SHARMA ","conatct details of ATUL KUMAR SHARMA","I want to contact ATUL KUMAR SHARMA"],
+                        "responses": ["To contact ATUL KUMAR SHARMA ,atul.sharma@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_U.S. Modani",
+                        "patterns": ["Tell me how to contact U.s. Modani ","conatct details of U.s. Modani ","I want to contact U.s. Modani "],
+                        "responses": ["To contact U.S. Modani ,drusmodani@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Rekha Mehra ",
+                        "patterns": ["Tell me how to contact Rekha Mehra","conatct details of Rekha Mehra","I want to contact Rekha Mehra "],
+                        "responses": [" To contact Rekha Mehra ,mehrarekha@ecajmer.ac.in 9214310888 "],
+                        "context": [""]
+        },
+        {"tag": "contact_Mukesh Gupta  ",
+                        "patterns": ["Tell me how to contact Mukesh Gupta ","conatct details of Mukesh Gupta ","I want to contact Mukesh Gupta "],
+                        "responses": ["To contact Mukesh Gupta ,mukeshgupta@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Deepak Jhanwar",
+                        "patterns": ["Tell me how to contact Deepak Jhanwar","conatct details of Deepak Jhanwar","I want to contact Deepak Jhanwar"],
+                        "responses": ["To contact Deepak Jhanwar ,dj@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Harish Kumar Sharma",
+                        "patterns": ["Tell me how to contact Harish Kumar Sharma","conatct details of Harish Kumar Sharma","I want to contact Harish Kumar Sharma"],
+                        "responses": [" To contact Harish Kumar Sharma,harish.sharma@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Rajesh Kumar Raj",
+                        "patterns": ["Tell me how to contact Rajesh Kumar Raj","conatct details of Rajesh Kumar Raj","I want to contact Rajesh Kumar Raj"],
+                        "responses": [" To contact Rajesh Kumar Raj ,rajeshraj@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Lalit Kumar Dusad",
+                        "patterns": ["Tell me how to contact Lalit Kumar Dusad","conatct details of Lalit Kumar Dusad","I want to contact Lalit Kumar Dusad"],
+                        "responses": ["To contact Lalit Kumar Dusad,lkdusad@ecajmer.ac.in 9829062120 "],
+                        "context": [""]
+        },
+        {"tag": "contact_ANURAG GARG",
+                        "patterns": ["Tell me how to contact ANURAG GARG","conatct details of ANURAG GARG","I want to contact ANURAG GARG"],
+                        "responses": [" To contact ANURAG GARG ,anurageca@ecajmer.ac.in 7231909222 "],
+                        "context": [""]
+        },
+        {"tag": "contact_Ravi Kumar Goyal",
+                        "patterns": ["Tell me how to contact Ravi Kumar Goyal","conatct details of Ravi Kumar Goyal","I want to contact Ravi Kumar Goyal"],
+                        "responses": ["To contact Ravi Kumar Goyal,ravigoyal123@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Jitendra Bahadur Maurya",
+                        "patterns": ["Tell me how to contact Jitendra Bahadur Maurya","conatct details of Jitendra Bahadur Maurya","I want to contact Jitendra Bahadur Maurya"],
+                        "responses": ["To contact Jitendra Bahadur Maurya,jitendra.maurya06@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Manoj Kumar Falaswal",
+                        "patterns": ["Tell me how to contact Manoj Kumar Falaswal","conatct details of Manoj Kumar Falaswal","I want to contact Manoj Kumar Falaswal "],
+                        "responses": ["To contact Manoj Kumar Falaswal ,manoj.falaswal@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_NAMITA MALLIK ",
+                        "patterns": ["Tell me how to contact NAMITA MALLIK","conatct details of NAMITA MALLIK","I want to contact NAMITA MALLIK"],
+                        "responses": ["To contact NAMITA MALLIK ,namita.mallik@ecajmer.ac.in"],
+                        "context": [""]
+        },
+        {"tag": "contact_DURGA KUMARI",
+                        "patterns": ["Tell me how to contact DURGA KUMARI","conatct details of DURGA KUMARI","I want to contact DURGA KUMARI"],
+                        "responses": ["To contact DURGA KUMARI ,durga@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_DIWAKAR GAUTAM",
+                        "patterns": ["Tell me how to contact DIWAKAR GAUTAM","conatct details of DIWAKAR GAUTAM","I want to contact DIWAKAR GAUTAM"],
+                        "responses": ["To contact DIWAKAR GAUTAM ,diwakargautam@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_sangeeta krishnan",
+                        "patterns": ["Tell me how to contact sangeeta krishnan","conatct details of sangeeta krishnan","I want to contact sangeeta krishnan"],
+                        "responses": ["To contact sangeeta krishnan ,drkrishnan@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_VIMAL CHAND JAIN  ",
+                        "patterns": ["Tell me how to contact VIMAL CHAND JAIN","conatct details of VIMAL CHAND JAIN","I want to contact VIMAL CHAND JAIN"],
+                        "responses": ["To contact VIMAL CHAND JAIN ,vcjeca@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Rajendra Pal Sharma",
+                        "patterns": ["Tell me how to contact Rajendra Pal Sharma","conatct details of Rajendra Pal Sharma","I want to contact Rajendra Pal Sharma"],
+                        "responses": ["To contact Rajendra Pal Sharma ,drrpsharma@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Adarsh Mangal",
+                        "patterns": ["Tell me how to contact Adarsh Mangal","conatct details of Adarsh Mangal ","I want to contact Adarsh Mangal"],
+                        "responses": [" To contact Adarsh Mangal ,dradarshmangal@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_ANAND BANSAL",
+                        "patterns": ["Tell me how to contact ANAND BANSAL","conatct details of ANAND BANSAL","I want to contact ANAND BANSAL"],
+                        "responses": [" To contact ANAND BANSAL ,dranandbansal@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Anil Maheshwari",
+                        "patterns": ["Tell me how to contact Anil Maheshwari","conatct details of Anil Maheshwari","I want to contact Anil Maheshwari"],
+                        "responses": ["To contact Anil Maheshwari,anil.knowledge@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Shalini Walia",
+                        "patterns": ["Tell me how to contact Shalini Walia","conatct details of Shalini Walia","I want to contact Shalini Walia"],
+                        "responses": ["To contact Shalini Walia ,waliashalini@ecajmer.ac.in 9829691548 "],
+                        "context": [""]
+        },
+        {"tag": "contact_Suresh Sahu",
+                        "patterns": ["Tell me how to contact Suresh Sahu","conatct details of Suresh Sahu","I want to contact Suresh Sahu"],
+                        "responses": ["To contact Suresh Sahu ,sureshsahu@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Shikha Agarwal",
+                        "patterns": ["Tell me how to contact Shikha Agarwal","conatct details of Shikha Agarwal","I want to contact Shikha Agarwal"],
+                        "responses": [" To contact Shikha Agarwal ,drshikhaagarwal@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Amit Kumar Srivastava",
+                        "patterns": ["Tell me how to contact Amit Kumar Srivastava","conatct details of Amit Kumar Srivastava","I want to contact Amit Kumar Srivastava"],
+                        "responses": [" To contact Amit Kumar Srivastava ,a.k.sri@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Gaurav Sharma",
+                        "patterns": ["Tell me how to contact Gaurav Sharma","conatct details of Gaurav Sharma","I want to contact Gaurav Sharma"],
+                        "responses": ["To contact Gaurav Sharma ,gauravsharma@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Alok Khatri ",
+                        "patterns": ["Tell me how to contact Alok Khatri","conatct details of Alok Khatri","I want to contact Alok Khatri "],
+                        "responses": [" To contact Alok Khatri ,alokkhatri@ecajmer.ac.in 09414604006 "],
+                        "context": [""]
+        },
+        {"tag": "contact_details ",
+                        "patterns": ["Tell me how to contact ","conatct details of ","I want to contact "],
+                        "responses": [" "],
+                        "context": [""]
+        },
+        {"tag": "contact_B. D. Gidwani",
+                        "patterns": ["Tell me how to contact B. D. Gidwani ","conatct details of B. D. Gidwani ","I want to contact B. D. Gidwani "],
+                        "responses": ["To contact B. D. Gidwani ,gd97@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Chandan Sharma ",
+                        "patterns": ["Tell me how to contact Chandan Sharma","conatct details of Chandan Sharma","I want to contact Chandan Sharma"],
+                        "responses": [" To contact Chandan Sharma ,sharmac1975@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Y.K.Gupta",
+                        "patterns": ["Tell me how to contact Y.K.Gupta","conatct details of  Y.K.Gupta","I want to contact Y.K.Gupta"],
+                        "responses": [" To contact Y.K.Gupta,ykgupta@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Devendra Choudhary",
+                        "patterns": ["Tell me how to contact Devendra Choudhary","conatct details of Devendra Choudhary","I want to contact Devendra Choudhary"],
+                        "responses": ["To contact Devendra Choudhary,devendra@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_ROHIT MISRA ",
+                        "patterns": ["Tell me how to contact ROHIT MISRA ","conatct details of ROHIT MISRA","I want to contact ROHIT MISRA"],
+                        "responses": [" To contact ROHIT MISRA,rohiteca@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Tarun Kumar Aser ",
+                        "patterns": ["Tell me how to contact Tarun Kumar Aser ","conatct details of Tarun Kumar Aser","I want to contact Tarun Kumar Aser"],
+                        "responses": ["To contact Tarun Kumar Aseri,tarunaseri@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Doraj Kamal Jamuwa",
+                        "patterns": ["Tell me how to contact Doraj Kamal Jamuwa","conatct details of Doraj Kamal Jamuwa","I want to contact Doraj Kamal Jamuwa"],
+                        "responses": ["To contact Doraj Kamal Jamuwa ,k.doraj@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Dilip Gehlot",
+                        "patterns": ["Tell me how to contact Dilip Gehlot","conatct details of Dilip Gehlot","I want to contact Dilip Gehlot"],
+                        "responses": [" To contact Dilip Gehlot ,dlpgehlot@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_MOOL CHAND",
+                        "patterns": ["Tell me how to contact MOOL CHAND","conatct details of MOOL CHAND","I want to contact MOOL CHAND"],
+                        "responses": ["To contact MOOL CHAND ,mckhatri@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Sandesh Trivedi",
+                        "patterns": ["Tell me how to contact Sandesh Trivedi","conatct details of Sandesh Trivedi","I want to contact Sandesh Trivedi"],
+                        "responses": [" To contact Sandesh Trivedi ,sandeshtrivedi@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_KAMAL SINGH",
+                        "patterns": ["Tell me how to contact KAMAL SINGH","conatct details of KAMAL SINGH","I want to contact KAMAL SINGH"],
+                        "responses": ["To contact KAMAL SINGH,kamal.singh@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_VIVEK DUBEY",
+                        "patterns": ["Tell me how to contact VIVEK DUBEY","conatct details of VIVEK DUBEY","I want to contact VIVEK DUBEY"],
+                        "responses": ["To contact VIVEK DUBEY,vivekdubey@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Gyan Singh",
+                        "patterns": ["Tell me how to contact Gyan Singh","conatct details of  Gyan Singh","I want to contact Gyan Singh"],
+                        "responses": ["To contact Gyan Singh ,gyan.singh@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Amit Kr Chaturvedi",
+                        "patterns": ["Tell me how to contact Amit Kr Chaturvedi","conatct details of Amit Kr Chaturvedi","I want to contact Amit Kr Chaturvedi"],
+                        "responses": ["To contact Amit Kr Chaturvedi ,dramitchaturvedi@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Sanjay Singh",
+                        "patterns": ["Tell me how to contact Sanjay Singh","conatct details of Sanjay Singh","I want to contact Sanjay Singh"],
+                        "responses": ["To contact Sanjay Singh ,sanjay.eca@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_R. K. Motwani",
+                        "patterns": ["Tell me how to contact R. K. Motwani","conatct details of R. K. Motwani","I want to contact R. K. Motwani"],
+                        "responses": ["To contact R. K. Motwani,rkm@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_AMIT SHARMA ",
+                        "patterns": ["Tell me how to contact AMIT SHARMA","conatct details of AMIT SHARMA","I want to contact AMIT SHARMA"],
+                        "responses": [" To contact AMIT SHARMA ,dramitsnsharma@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_MANISH BADLANI",
+                        "patterns": ["Tell me how to contact MANISH BADLANI","conatct details of MANISH BADLANI","I want to contact MANISH BADLANI"],
+                        "responses": ["To contact MANISH BADLANI,dr.manishbadlani@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Jagbir Singh",
+                        "patterns": ["Tell me how to contact Jagbir Singh","conatct details of Jagbir Singh","I want to contact Jagbir Singh"],
+                        "responses": [" To contact Jagbir Singh,jagbir.singh@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "contact_Jai Kishan Sambharia ",
+                        "patterns": ["Tell me how to contact Jai Kishan Sambharia","conatct details of Jai Kishan Sambharia","I want to contact Jai Kishan Sambharia"],
+                        "responses": [" To contact Jai Kishan Sambharia,jaikishan.sambharia@ecajmer.ac.in "],
+                        "context": [""]
+        },
+        {"tag": "Library_details",
+                        "patterns": ["Tell me how to get books from library ","books from library ","I want to get books from library "],
+                        "responses": [" To get books from the library,Go visit library building with library card "],
+                        "context": [""]
+        },
+        {"tag": "Branch change ",
+                        "patterns": ["Tell me how to change branch ","opt to branch change ","I want to change branch in reap form "],
+                        "responses": ["To opt for branch change,Fill up the choice during REAP registeration "],
+                        "context": [""]
+        },
+        {"tag": "Mercy Midterms",
+                        "patterns": ["Tell me how do apply for mercy mid term","Mercy mid term ","I want to apply for mercy mid terms "],
+                        "responses": ["To apply for mercy midterms ,Go to home then circulars then examination then department "],
+                        "context": [""]
+        },
+        {"tag": "Department circulars ",
+                        "patterns": ["Tell me how do i see my department circulars ","circulars for department ","I want to see circulars of my department"],
+                        "responses": [" To get everyday circulars of my department,Go to HOME PAGE then QUICK LINKS then CIRCULARS "],
+                        "context": [""]
+        },
+        {"tag": "fee Submission ",
+                        "patterns": ["Tell me how do i submit my fees ","where to submit fees ","I want to submit my fees  "],
+                        "responses": [" To submit the fees,Go to HOME PAGE then PORTAL then COLLEGE ERP "],
+                        "context": [""]
+        },
+        {"tag": "Semester Exam ",
+                        "patterns": ["Tell me detail of Semester Examination","Sem Exam ","I want to check detail of Semester Examination  "],
+                        "responses": [" To register for semester examination,Go to HOME PAGE then COLLEGE ERP "],
+                        "context": [""]
+        },
+        {"tag": "Back Exam ",
+                        "patterns": ["Tell me where i can apply for Back Exam","Back Exam Details ","I want to apply for Back Examination "],
+                        "responses": ["To apply for backlog examination ,Go to home then circulars then examination then department "],
+                        "context": [""]
+        },
+        {"tag": "Mercy Back Exam ",
+                        "patterns": ["Tell me where i can apply for Mercy Back Exams","Mercy Back Exam Details ","I want to apply for mercy back exams "],
+                        "responses": [" To apply for mercy back examination ,Go to home then circulars then examination then department "],
+                        "context": [""]
+        },
+        {"tag": "CAS_activities ",
+                        "patterns": ["Tell me how to apply for CAS activities","CAS Activites ","I want to see all CAS activites present in our college  "],
+                        "responses": ["To register for CAS activities ,Go to home then circulars then CAS "],
+                        "context": [""]
+        },
+        {"tag": "Scholarship Program ",
+                        "patterns": ["Tell me which are the scholarship program available","Scholarship Program","I want to apply for scholarship program "],
+                        "responses": [" To apply for scholarship program ,Go to Latest News PORTAL "],
+                        "context": [""]
+        },
+        {"tag": "Contact_Proctor ",
+                        "patterns": ["Tell me how do i contact Proctor Section","Contact Detail of Proctor Section ","I want to contact Proctor Section "],
+                        "responses": [" To contact the proctor divison ,Go to HOME PAGE then circulars then proctor "],
+                        "context": [""]
+        },
+        {"tag": "contact Exam Section",
+                        "patterns": ["Tell me how do i contact Exam section ","Contact Detail of Exam Section ","I want to contact in Exam section "],
+                        "responses": ["To contact examination section ,Go to home then circulars then examination  "],
+                        "context": [""]
+        },
+        {"tag": "Curriculam_actovities ",
+                        "patterns": ["Tell me about the extra curriculam activities i can apply for","Extracurriculam Activities ","I want to apply for extra curriculam activities "],
+                        "responses": ["To apply for extracurricular activities ,Go to home then circulars then CAS "],
+                        "context": [""]
+        },
+        {"tag": "Application Form ",
+                        "patterns": ["Tell me how do i see and submit my application form","Application form ","I want to submit my appliction form "],
+                        "responses": ["To submit my application form ,Go to HOME PAGE then COLLEGE ERP "],
+                        "context": [""]
+        },
+                {"tag": "Workshops ",
+                "patterns": ["Tell me which workshop is going to help","workshop details ","I want to apply for workshop tell me where i can "],
+                "responses": ["To apply for workshops ,Go to HOME PAGE then ORDERS "],
+                "context": [""]
+        },
+        {"tag": "Tarangini ",
+                "patterns": ["Tell me where i enroll for tarangini"," Tarigini Details","I want to see Tarigini photos and details "],
+                "responses": [" To register in Tarangini,Go to HOME PAGE then TARANGINI "],
+                "context": [""]
+        },
+        {"tag": "Techfest ",
+                "patterns": ["Tell me where i enroll for techfest ","Techfest Detail ","I want to see Techfest details and want to apply  "],
+                "responses": [" To take part in techfest,Go to HOME PAGE then TECHFEST "],
+                "context": [""]
+        },
+        {"tag": "college_news",
+                "patterns": ["Tell me about college news","College news","I want to find about news"],
+                "responses": ["To watch Latest News, Go to HOME PAGE to QUICK LINKS then LATEST NEWS"],
+                "context": [""]
+        },
+        {"tag": "history",
+                "patterns": ["Tell me about college history","college history"],
+                "responses": ["To watch college history, Go to:https://www.ecajmer.ac.in/History.php"],
+                "context": [""]
+        },
+
+        {"tag": "vision",
+                        "patterns": ["Tell me about vision & mission","vision & mission"],
+                        "responses": ["To watch vision & mission, Go to:https://www.ecajmer.ac.in/vision.php"],
+                        "context": [""]
+        },
+
+        {"tag": "pos",
+                        "patterns": ["Tell me about pos & peos","pos & peos"],
+                        "responses": ["To watch pos & peos, Go to:https://www.ecajmer.ac.in/peo.php"],
+                        "context": [""]
+        },
+
+        {"tag": "principal's page",
+                        "patterns": ["Tell me about college principal's page","principal's page"],
+                        "responses": ["To watch college principal's page, https://www.ecajmer.ac.in/message.php"],
+                        "context": [""]
+        },
+
+        {"tag": "How to Reach",
+                        "patterns": ["Tell me about college How to Reach","How to Reach"],
+                        "responses": ["To watch college How to Reach, Go to:https://www.ecajmer.ac.in/HowtoReach.php"],
+                        "context": [""]
+        },
+
+        {"tag": "sight seeing",
+                        "patterns": ["Tell me about sight seeing","sight seeing"],
+                        "responses": ["To watch sight seeing, Go to:https://www.ecajmer.ac.in/SightSeeing.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Contact us",
+                        "patterns": ["Tell me about Contact us","Contact us"],
+                        "responses": ["To watch Contact us, Go to:https://www.ecajmer.ac.in/contact.php"],
+                        "context": [""]
+        },
+
+        {"tag": "academic calender",
+                        "patterns": ["Tell me about academic calender","academic calender"],
+                        "responses": ["To watch academic calender, Go to:https://ecajmer.ac.in/Content/Orders/UG/Files/2018OWEB0038-06-07-18-Academic%20calender%202018-19-UaLTqs.pdf"],
+                        "context": [""]
+        },
+
+        {"tag": "Research",
+                        "patterns": ["Tell me about Research","Research"],
+                        "responses": ["To watch Research, Go to:https://ecajmer.ac.in/research.php"],
+                        "context": [""]
+        },
+
+        {"tag": "BOG",
+                        "patterns": ["Tell me about BOG","BOG"],
+                        "responses": ["To watch BOG, Go to:https://www.ecajmer.ac.in/BOGMembers.php"],
+                        "context": [""]
+        },
+
+        {"tag": "BOG",
+                        "patterns": ["Tell me about BOG Minutes of Meetings","BOG Minutes of Meetings"],
+                        "responses": ["To watch BOG Minutes of Meetings, Go to:https://www.ecajmer.ac.in/BOGMinutOfMeeting.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Sports",
+                        "patterns": ["Tell me about Sports","Sports"],
+                        "responses": ["To watch Sports, Go to:https://ecajmer.ac.in/Sport.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Central Library",
+                        "patterns": ["Tell me about Central Library","Central Library"],
+                        "responses": ["To watch Central Library, Go to:https://ecajmer.ac.in/Library.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Mandatory Disclosure",
+                        "patterns": ["Tell me about Mandatory Disclosure","Mandatory Disclosure"],
+                        "responses": ["To watch Mandatory Disclosure, Go to:https://ecajmer.ac.in/mandatorydis.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Grievance Cell",
+                        "patterns": ["Tell me about Student/Parent/Employee Grievance Cell","Student/Parent/Employee Grievance Cell"],
+                        "responses": ["To watch Student/Parent/Employee Grievance Cell, Go to:https://ecajmer.ac.in/studentparent.php"],
+                        "context": [""]
+        },
+
+        {"tag": "OBC Cell",
+                        "patterns": ["Tell me about SC/ST/OBC Cell","SC/ST/OBC Cell"],
+                        "responses": ["To watch SC/ST/OBC Cell, Go to:https://ecajmer.ac.in/scstobc.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Woman Cell",
+                        "patterns": ["Tell me about Woman Cell","Woman Cell"],
+                        "responses": ["To watch Woman Cell, Go to:https://ecajmer.ac.in/WomenCell.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Alumni Cell",
+                        "patterns": ["Tell me about Alumni Cell","Alumni Cell"],
+                        "responses": ["To watch Alumni Cell, Go to:https://ecajmer.ac.in/Alumni.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Startup Cell",
+                        "patterns": ["Tell me about Startup Cell","Startup Cell"],
+                        "responses": ["To watch Startup Cell, Go to:https://ecajmer.ac.in/startup.php"],
+                        "context": [""]
+        },
+
+        {"tag": "training and placement",
+                        "patterns": ["Tell me about training and placement","training and placement"],
+                        "responses": ["To watch training and placement, Go to:http://tpo.ecajmer.ac.in/"],
+                        "context": [""]
+        },
+
+        {"tag": "IT Cell",
+                        "patterns": ["Tell me about Web Development And IT Cell","Web Development And IT Cell"],
+                        "responses": ["To watch Web Development And IT Cell, Go to:https://ecajmer.ac.in/WebsiteDevelopmentAndItCell.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Campus Development",
+                        "patterns": ["Tell me about Campus Development And Planning","Campus Development And Planning"],
+                        "responses": ["To watch Campus Development And Planning, Go to:https://ecajmer.ac.in/CampusDevelopment&Planning.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Time Table",
+                        "patterns": ["Tell me about Time Table And Class Management","Time Table And Class Management"],
+                        "responses": ["To watch Time Table And Class Management, Go to:https://ecajmer.ac.in/TimeTable&ClassRoomMgmt.php"],
+                        "context": [""]
+        },
+
+        {"tag": "SAE",
+                        "patterns": ["Tell me about SAE India Geca Collegiate Club","SAE India Geca Collegiate Club"],
+                        "responses": ["To watch SAE India Geca Collegiate Club, Go to:https://ecajmer.ac.in/saeclub.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Student Activity Center",
+                        "patterns": ["Tell me about Student Activity Center","Student Activity Center"],
+                        "responses": ["To watch Student Activity Center, Go to:https://ecajmer.ac.in/StudentActivityCenter.php"],
+                        "context": [""]
+        },
+
+        {"tag": "LAURELS",
+                        "patterns": ["Tell me about LAURELS OF 2017-18","LAURELS OF 2017-18"],
+                        "responses": ["To watch LAURELS OF 2017-18, Go to:https://ecajmer.ac.in/LAURELSOF2017-18.pdf"],
+                        "context": [""]
+        },
+
+        {"tag": "E-journal",
+                        "patterns": ["Tell me about E-journal access","E-journal access"],
+                        "responses": ["To watch E-journal access, Go to:https://www.sciencedirect.com/browse/journals-and-books"],
+                        "context": [""]
+        },
+
+        {"tag": "faculty login",
+                        "patterns": ["how to go faculty login","faculty login"],
+                        "responses": ["To go faculty login, Go to:https://ecajmer.ac.in/facultylogin/"],
+                        "context": [""]
+        },
+
+        {"tag": "admission first year",
+                        "patterns": ["Tell me about admission first year and fee detail","admission first year and fee detail"],
+                        "responses": ["To watch admission first year and fee detail, Go to:https://ecajmer.ac.in/firstyear.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Internet Policy",
+                        "patterns": ["Tell me about Internet Policy","Internet Policy"],
+                        "responses": ["To watch Internet Policy, Go to:https://ecajmer.ac.in/internetpolicy.php"],
+                        "context": [""]
+        },
+
+        {"tag": "Swayam",
+                        "patterns": ["Tell me about swayam-free online education ","swayam-free online education"],
+                        "responses": ["To watch swayam-free online education, Go to:https://swayam.gov.in/Undergraduate"],
+                        "context": [""]
+        },
+
+        {"tag": "Anti Ragging",
+                        "patterns": ["Tell me about Anti Ragging Squad","Anti Ragging Squad"],
+                        "responses": ["To watch Anti Ragging Squad, Go to:https://ecajmer.ac.in/AntiRagging.php"],
+                        "context": [""]
+        },
+
+        {"tag": "gallery",
+                        "patterns": ["Tell me about gallery","gallery"],
+                        "responses": ["To watch gallery, Go to:https://ecajmer.ac.in/gallery/"],
+                        "context": [""]
+        },
+
+        {"tag": "QEEE",
+                        "patterns": ["Tell me about QEEE","QEEE"],
+                        "responses": ["To watch QEEE, Go to:https://ecajmer.ac.in/qeee.php"],
+                        "context": [""]
+        },
+
+        {"tag": "meet team",
+                        "patterns": ["Tell me about meet the team","meet the team"],
+                        "responses": ["To watch meet the team, Go to:https://ecajmer.ac.in/MeetTheTeam.php"],
+                        "context": [""]
+        }
+        ]
+        }
